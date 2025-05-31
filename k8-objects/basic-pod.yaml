@@ -1,3 +1,7 @@
+# You could add as many containers to your main application as you want. 
+# But be careful since you lose the ability to scale them individually! 
+# Using a second container that supports your main application is called a sidecar container.
+
 apiVersion: v1 # check version using "kubectl api-resources"
 kind: Pod
 metadata:
